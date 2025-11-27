@@ -69,7 +69,7 @@ def run_knnr():
   # 성능 평가 => score(입력_테스트데이터, 예측_테스트데이터)
   r2 = model.score(X_test, Y_test)
 
-  print(f'결정 계수(성능 평가) : {r2}')
+  print(f'결정 계수(성능 평가) : {r2:.2f}')
   # => 1에 가까울수록 좋은 모델을 의미함!
 
 run_knnr()
